@@ -1,0 +1,26 @@
+{
+  "skill": "game-guide-to-video",
+  "example_only": true,
+  "source_document": "示例攻略.md",
+  "game_version": "1.0",
+  "output_duration": 20,
+  "narration": [
+    {
+      "id": "N1",
+      "start": 0,
+      "end": 20,
+      "text": "示例解说，非实际配音",
+      "claim_kind": "mechanic",
+      "source_ref": "chapter 1 / paragraph 2"
+    }
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "end": 20,
+      "kind": "gameplay",
+      "source_ref": "example-footage.mp4 10–30",
+      "game_version": "1.0"
+    }
+  ]
+}

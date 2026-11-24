@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-24",
+  "skill": "game-guide-to-video",
+  "version": "2.0",
+  "baseline_commit": "636f44a4e663d76e58d6a13a8965ab6fb3415040",
+  "owns": "把已给攻略转成忠实源文的讲解合集：脚本、真实游戏证据、旁白计时、字幕和最终成片。",
+  "does_not_own": "不自行编写未核验攻略，不将电影/实况集锦/音乐MV混为同一任务，不用AI画面充当实机证据。",
+  "admission_rule": "可直接完成脚本到旁白/分镜/字幕/成片的开放许可项目，或明确的声明式视频合成组件；非商业或实体限制许可不作为开源前五。",
+  "ranking_scope": "GitHub Repository Search（每查询按stars降序取前50项）+ 定向核查知名相关项目；按本技能职责与许可/维护状态筛选后，在本次候选池内按实际stars排序取五项。不是对全GitHub的穷尽排名，也不是文学/视觉/视频质量排行榜。",
+  "queries": [
+    {
+      "q": "text video generation",
+      "total_count": 1913,
+      "incomplete_results": false,
+      "fetched_items": 50
+    },
+    {
+      "q": "narrated video",
+      "total_count": 1888,
+      "incomplete_results": false,
+      "fetched_items": 50
+    }
+  ],
+  "targeted_candidates": [
+    "harry0703/MoneyPrinterTurbo",
+    "mifi/editly",
+    "Agents365-ai/video-podcast-maker",
+    "vincentsch/explainroo",
+    "Moh4696/cinematic-skill"
+  ],
+  "sources": [
+    {
+      "rank_in_admitted_candidates": 1,
+      "repository": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "stars_snapshot": 145393,
+      "commit": "dabfd3f8548d30ed0eea8759decbdead9626e0e6",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README-en.md",
+          "sha256": "1a2a5031f50ac315d4568d81044226c202089dcbe13ceb34a0729cf79ff2ea8a",
+          "bytes": 52648
+        },
+        {
+          "path": "README-ja.md",
+          "sha256": "b0589120da253191151ea1e020532d713db434df97218862b4b4707fcedc6382",
+          "bytes": 50141
+        },
+        {
+          "path": "README.md",
+          "sha256": "13ef98959958425ca8074164d0b3231cdd1ac61af3a868e4f4d1f2961779be67",
+          "bytes": 48943
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "87dd19b6a0779e14a91c1b06423ef251df37e89666160c031130a26bae68c229",
+          "bytes": 1061
+        }
+      ],
+      "focus": "脚本、声音、素材与合成分阶段",
+      "adapted_for_this_skill": "保留源章节到每句旁白的映射，不照搬随机素材匹配或发布流程"
+    },
+    {
+      "rank_in_admitted_candidates": 2,
+      "repository": "mifi/editly",
+      "url": "https://github.com/mifi/editly",
+      "stars_snapshot": 5652,
+      "commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "6221eb2ba4914a46b70ffd1220e69ba9367e93327453d8f016a68064462da61e",
+          "bytes": 29472
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c7b1aac19b0d6a4b66fce2db663cd51026082ec0c091cb17eca9ffe7c27fe2f9",
+          "bytes": 1071
+        }
+      ],
+      "focus": "声明式剪辑与层级",
+      "adapted_for_this_skill": "用明确时间轴连接视频、文字、音轨，转场重叠计入实际长度"
+    },
+    {
+      "rank_in_admitted_candidates": 3,
+      "repository": "Agents365-ai/video-podcast-maker",
+      "url": "https://github.com/Agents365-ai/video-podcast-maker",
+      "stars_snapshot": 1731,
+      "commit": "33b8078e3e87c9626d39d144b4c901b4ebf16f74",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "e44d067281c76831b096a60af60c9b293557fd4887e10dc7e1bedac4c00d5fe2",
+          "bytes": 13422
+        },
+        {
+          "path": "README_CN.md",
+          "sha256": "127d4a78cd10e60a15ce906fdd9b42b6605fc921a404dbfa7290045aee2581bb",
+          "bytes": 13222
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+          "bytes": 1069
+        }
+      ],
+      "focus": "素材清单、语音与渲染协作",
+      "adapted_for_this_skill": "记录素材来源和旁白实测时长，局部重做按依赖更新"
+    },
+    {
+      "rank_in_admitted_candidates": 4,
+      "repository": "vincentsch/explainroo",
+      "url": "https://github.com/vincentsch/explainroo",
+      "stars_snapshot": 1435,
+      "commit": "195f918a2dbecdda83e4f0741229a63fe2ab45e0",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "62bfced2ae3a8a93a7d2dc43659be5b6db577c7ac9e4502278f55a7d94c7a29c",
+          "bytes": 22594
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c1aa0783daffe7dd380ca311ea7af1913999b60a5a1906295c3b25fdebf3775e",
+          "bytes": 1075
+        }
+      ],
+      "focus": "脚本、语音时序和本地渲染",
+      "adapted_for_this_skill": "以实际声音与句级时间决定画面覆盖，不能只按字数猜成片时长"
+    },
+    {
+      "rank_in_admitted_candidates": 5,
+      "repository": "Moh4696/cinematic-skill",
+      "url": "https://github.com/Moh4696/cinematic-skill",
+      "stars_snapshot": 953,
+      "commit": "bf435561c6203f90f971300efe952b68b5ec3417",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "LICENSE",
+          "sha256": "9e22b0b3fd03d4b2c0e696c055c1d920af9a40e33eed82878844f018610e7102",
+          "bytes": 1065
+        },
+        {
+          "path": "README.md",
+          "sha256": "84fce43de49bd40641ff92eed4432edfdfa4b312bbc6ecc18da572d763470f6a",
+          "bytes": 7176
+        }
+      ],
+      "focus": "持续镜头与声音时间绑定",
+      "adapted_for_this_skill": "镜头运动服务讲解内容；不强加某一种视觉主题"
+    }
+  ],
+  "excluded_or_not_top_five": [
+    "Remotion（75,376 stars）为自定义实体规模许可，anything2explainer（3,607 stars）使用非商业许可，均未作为本轮开放许可前五，也未复制其模板/代码。",
+    "通用文生视频模型不能证明攻略机制，电影解说输入与攻略文档不同，不能因为能输出MP4就混入同一流程。"
+  ],
+  "reuse_policy": "Only independently restated methods and project capability boundaries are integrated. No upstream code, templates, models or weights are vendored; no model installation, API call, commercial service or content publication is performed by this research."
+}
